@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Course: CSC233: Intro to Data Analytics Documentation",
+    "title": "Course: CSC/BIO243: Bioinformatics Documentation",
     "section": "",
     "text": "Welcome\nThe course website for CSC233, part of the Union College CS curriculum. Here you can find our weekly schedule, assignmnets and resources.",
     "crumbs": [
@@ -12,7 +12,7 @@
   {
     "objectID": "index.html#announcements",
     "href": "index.html#announcements",
-    "title": "Course: CSC233: Intro to Data Analytics Documentation",
+    "title": "Course: CSC/BIO243: Bioinformatics Documentation",
     "section": "Announcements",
     "text": "Announcements\nToday at Common Hour CS social in Olin 107 (with snacks)\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nWednesday 2:00 pm - 3:30 pm\nThursday 4:00 pm - 5:30 pm\nsubject to change, check course website for most up-tp-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
     "crumbs": [
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#course-description",
     "href": "index.html#course-description",
-    "title": "Course: CSC233: Intro to Data Analytics Documentation",
+    "title": "Course: CSC/BIO243: Bioinformatics Documentation",
     "section": "Course Description",
     "text": "Course Description\nData analytics, the process of analyzing, revealing, interpreting and visualizing information concealed inside big data is revolutionizing daily life, as used by companies such as Amazon, Google and Facebook, for the diagnosis of medical conditions or the way medical claims are handled, for investment strategies and real estate pricing, and in academia, with the analysis of historical texts, understanding the deliberations of the Supreme Court or the European Commission, or processing large amounts of genomics data.\nIn this class, students will be introduced to techniques to acquire data from the web, manipulate and pre-process data into manageable forms, perform analyses from a descriptive and predictive standpoint, and learn the basics of visualization of the result, all with a focus on storytelling through data, enhancing data literacy.\nIn this course you will use the Python programming language to scrape web data, prepare data for analysis, analyze to produce explainable results, and visualize those results. Throughout we will discuss the pitfalls, ethics and challenges of working with data. A 1-page schedule-at-a-glance is included at the end of the syllabus.\nThis course requires the pre-approval of the department. For more information, please visit: https://union.edu/advising-registration/pre-approval.",
     "crumbs": [
