@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Course: CSC/BIO243: Bioinformatics",
     "section": "",
-    "text": "Welcome\nThe course website for CSC233, part of the Union College CS curriculum. Here you can find our weekly schedule, assignmnets and resources.",
+    "text": "Welcome\nThe course website for CSC/BIO243, part of the Union College CS curriculum. Here you can find our weekly schedule, assignmnets and resources.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#announcements",
     "title": "Course: CSC/BIO243: Bioinformatics",
     "section": "Announcements",
-    "text": "Announcements\nToday at Common Hour CS social in Olin 107 (with snacks)\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nWednesday 2:00 pm - 3:30 pm\nThursday 4:00 pm - 5:30 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
+    "text": "Announcements\nWelcome! You may want to bookmark this page for the term.\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 2:00 pm - 3:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "index.html#course-description",
     "title": "Course: CSC/BIO243: Bioinformatics",
     "section": "Course Description",
-    "text": "Course Description\nData analytics, the process of analyzing, revealing, interpreting and visualizing information concealed inside big data is revolutionizing daily life, as used by companies such as Amazon, Google and Facebook, for the diagnosis of medical conditions or the way medical claims are handled, for investment strategies and real estate pricing, and in academia, with the analysis of historical texts, understanding the deliberations of the Supreme Court or the European Commission, or processing large amounts of genomics data.\nIn this class, students will be introduced to techniques to acquire data from the web, manipulate and pre-process data into manageable forms, perform analyses from a descriptive and predictive standpoint, and learn the basics of visualization of the result, all with a focus on storytelling through data, enhancing data literacy.\nIn this course you will use the Python programming language to scrape web data, prepare data for analysis, analyze to produce explainable results, and visualize those results. Throughout we will discuss the pitfalls, ethics and challenges of working with data. A 1-page schedule-at-a-glance is included at the end of the syllabus.\nThis course requires the pre-approval of the department. For more information, please visit: https://union.edu/advising-registration/pre-approval.",
+    "text": "Course Description\nBioinformatics is the study of how information technology, computer science principles, and algorithmic techniques have affected and informed the study of biology in the 21st century (and vice versa). Speciﬁcally, the ﬁeld of genomics (the study of the function of genes) has generated a tremendous amount of data to be analyzed. Bioinformatics brings to bear data management and analysis techniques found in the information processing ﬁeld to discover pertinent knowledge in this sea of data that has applications in research and medicine.\nIn this course, you will learn about both biological and computer science concepts, how they interact with each other, and how they are used together to further research in genomics.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "02-Main/schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule\nWeekly Schedule",
+    "text": "Schedule\nWeekly Schedule\ncheck often as things may change",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
     ]
@@ -44,7 +44,7 @@
     "href": "02-Main/schedule.html#schedule",
     "title": "Schedule",
     "section": "",
-    "text": "W.\nTOPIC\nDue\nRunestone\n\n\n\n\n1\nIntroduction to Data Analytics\nIntroductory Survey\nhttlads ch. 1 & 4\n\n\n2\nUsing Descriptive Statistics to Talk About Data\nHW 0\n\n\n\n3\nPython Tools for Data Analytics\nHW 1\n\n\n\n4\nPANDAS for Exploratory Data Analysis\nHW 2, project data\nhttlads ch. 2 & 7\n\n\n5\nCollecting Data from the Web\nHW 3, project question\nhttlads ch. 5\n\n\n6\nData Wrangling and Cleaning\nHW 4\n\n\n\n7\nMerging, selecting and transforming data\nHW 5, project outline\nhttlads ch. 6\n\n\n8\nSimple Machine Learning Methods to Explore Data\nHW 6, Midterm Exam\nhttlads ch. 9\n\n\n9\nEvaluating performance\nProject Draft\n\n\n\n10\nProject Presentation\nFinal Project & Presentation",
+    "text": "W\nTOPIC\nReading\nDue\n\n\n\n\n1\nWhat is bioinformatics: what are computers and living cells good at?\nBioinformatics for Dummies (BFD) Ch. 1 & 2\nIntro Survey\n\n\n2\nAlgorithms & the Genetic Code\nThink Python (TP) Ch. 1, 2, 3.4-3.7 & Molecular & Cell Biology (MCFD) Ch. 1, 6, 7\nHW 1, Quiz 1\n\n\n3\nModular Programming & Proteins\nTP Ch. 5.1-5.7, 5.11, 6.1 & MCFD Ch. 16, 17\nHW 2, Quiz 2\n\n\n4\nLoops & Sequencing\nTP Ch. 6.1-6.1, 7.1-7.3, 7.7 & MCFD Ch. 19\nMidterm 1\n\n\n5\nSequence Processing & Disease\nBFD Ch. 7\nHW 3, Quiz 3\n\n\n6\nSequence Alignment\nBFD Ch. 9, TP Ch. 8\nMidterm 2\n\n\n7\nMultiple Sequence Alignment\nBFD Ch. 13\nProject 1 Outline\n\n\n8\nPolymerase Chain Reaction\nBDF Ch. 13, 9 cont.\nProject 1\n\n\n9\nPhylogenetics\nBFD Ch. 13 cont.\nProject 2 Outline\n\n\n10\nGene Prediction\nBFD Ch. 5, pp. 145-153\nProject 2",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "02-Main/grading.html",
     "title": "Grading",
     "section": "",
-    "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nProblem Sets\n50%\ncoding\n\n\nMidterm Exam\n25%\nwritten\n\n\nFinal Project\n25%\n\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
+    "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nParticipation\n10%\nsee syllabus for details\n\n\nQuizzes\n15%\nwritten\n\n\nMidterms\n20%\nwritten\n\n\nGroup Projects\n40%\ncoding\n\n\nFinal Exam\n15%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Grading</span>"
     ]
@@ -132,56 +132,12 @@
   {
     "objectID": "03-Assignments/csc233_hw00.html",
     "href": "03-Assignments/csc233_hw00.html",
-    "title": "CSC233 HW 00",
+    "title": "CSC/BIO 243 HW 01",
     "section": "",
-    "text": "CSC 233: Assignment 0, Due Jan 13, 2026",
+    "text": "CSC/BIO 243: Assignment 1",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC233 HW 00</span>"
-    ]
-  },
-  {
-    "objectID": "03-Assignments/csc233_hw00.html#setup-colab-notebook-1-pts",
-    "href": "03-Assignments/csc233_hw00.html#setup-colab-notebook-1-pts",
-    "title": "CSC233 HW 00",
-    "section": "1. Setup Colab Notebook (1 pts)",
-    "text": "1. Setup Colab Notebook (1 pts)\n\nMake a copy of the Colab Notebook template:\n\nhttps://drive.google.com/file/d/1Ih-HblyS0zAduHUlQfBw4VoeCRx1jyNt/view?usp=sharing\n\nRename it with your own name: [Name]_CSC233_Assignment0.ipynb\nFollow the instructions in the Colab Notebook.\n\npresident_heights.csv: https://drive.google.com/file/d/1PC1EDXtvzMqKFuqVHwC6VbVfvG4h6WsQ/view?usp=sharing\n\nShare your notebook with me (doingg@union.edu) as your submission.",
-    "crumbs": [
-      "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC233 HW 00</span>"
-    ]
-  },
-  {
-    "objectID": "03-Assignments/csc233_hw00.html#runsestone-reading-activities-1-pts",
-    "href": "03-Assignments/csc233_hw00.html#runsestone-reading-activities-1-pts",
-    "title": "CSC233 HW 00",
-    "section": "2. Runsestone Reading & Activities (1 pts)",
-    "text": "2. Runsestone Reading & Activities (1 pts)\n\nEnroll in our Runestone course “How to Think Like a Data Scientist”\n\n\nhttps://runestone.academy/runestone/default/user/register\nyour Union College email\nunioncollege_httlads_winter26 as the course name\nfor review, you may also use the Python course: unioncollege_py4e-int_winter26_da\n\n\nRead and complete the activities for chapters 1 & 4\n\n\nyou do not need to install python or anaconda, you can use Colab.",
-    "crumbs": [
-      "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC233 HW 00</span>"
-    ]
-  },
-  {
-    "objectID": "03-Assignments/csc233_hw00.html#setup-check-in-notebook-1-pts",
-    "href": "03-Assignments/csc233_hw00.html#setup-check-in-notebook-1-pts",
-    "title": "CSC233 HW 00",
-    "section": "3. Setup Check-in Notebook (1 pts)",
-    "text": "3. Setup Check-in Notebook (1 pts)\n\nMake a copy of the Check-in Notebook template:\n\nhttps://colab.research.google.com/drive/18tnFEURw_emX64WbeCRSaA9nyIsNvVsv?usp=sharing\n\nRename it with your own name: [Name]_CSC233_check-in_template.ipynb\nFollow the instructions in the Colab Notebook.\nShare your notebook with me (doingg@union.edu) as your submission.",
-    "crumbs": [
-      "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC233 HW 00</span>"
-    ]
-  },
-  {
-    "objectID": "03-Assignments/csc233_hw00.html#office-hours-1-pts",
-    "href": "03-Assignments/csc233_hw00.html#office-hours-1-pts",
-    "title": "CSC233 HW 00",
-    "section": "4. Office Hours (1 pts)",
-    "text": "4. Office Hours (1 pts)\n\nAfter completing your check-in notebook, come to office hours sometime in the next 2 weeks.\n\n\nLocation: ISEC 070\nStudent/Office Hours:\n\nWednesday 2:00 pm - 3:30 pm\nThursday 4:00 pm - 5:30 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom\n\nBe careful not to procrastinate, 2 classes worth of students share the office hours.",
-    "crumbs": [
-      "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC233 HW 00</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC/BIO 243 HW 01</span>"
     ]
   },
   {
@@ -189,7 +145,7 @@
     "href": "04-Notes/week1.html",
     "title": "Week 1",
     "section": "",
-    "text": "Slides from Week 1",
+    "text": "Notes from Week 1",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 1</span>"
