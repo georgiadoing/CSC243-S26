@@ -54,17 +54,7 @@
     "href": "02-Main/resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Runestone (Online Textbook)",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
-    ]
-  },
-  {
-    "objectID": "02-Main/resources.html#runestone-online-textbook",
-    "href": "02-Main/resources.html#runestone-online-textbook",
-    "title": "Resources",
-    "section": "",
-    "text": "https://runestone.academy/runestone/default/user/register\nyour Union College email\nunioncollege_httlads_winter26 as the course name\nfor review, you may also use the Python course: unioncollege_py4e-int_winter26_da",
+    "text": "Google Colab Pro",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -73,18 +63,8 @@
     "objectID": "02-Main/resources.html#google-colab-pro",
     "href": "02-Main/resources.html#google-colab-pro",
     "title": "Resources",
-    "section": "Google Colab Pro",
-    "text": "Google Colab Pro\n\nPro account sign-up: https://colab.research.google.com/signup\nUse your Union email\nA pro account is not needed for this course, just an option Union pays for\nNotes template: https://colab.research.google.com/drive/15rPmKyQKCCbwsdDCpC39o8hczWZ-B5zV?usp=sharing",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
-    ]
-  },
-  {
-    "objectID": "02-Main/resources.html#late-token-form",
-    "href": "02-Main/resources.html#late-token-form",
-    "title": "Resources",
-    "section": "Late Token Form",
-    "text": "Late Token Form\n\nThese are for project-related deadlines, not Rosalind problems\nThese can be used for any reason\nThese do not apply to your final deadline\nForm link: https://forms.gle/6W3LrkK4SdhWGSzL7",
+    "section": "",
+    "text": "Pro account sign-up: https://colab.research.google.com/signup\nUse your Union email\nA pro account is not needed for this course, just an option Union pays for\nNotes template: https://colab.research.google.com/drive/15rPmKyQKCCbwsdDCpC39o8hczWZ-B5zV?usp=sharing",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -95,16 +75,6 @@
     "title": "Resources",
     "section": "Python Style Guide",
     "text": "Python Style Guide\n\nPEP 8\nshould be used in all code cells of Colab notebooks\nLink: https://peps.python.org/pep-0008/",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
-    ]
-  },
-  {
-    "objectID": "02-Main/resources.html#links-to-google-drive-folders",
-    "href": "02-Main/resources.html#links-to-google-drive-folders",
-    "title": "Resources",
-    "section": "Links to Google Drive folders",
-    "text": "Links to Google Drive folders\n\nuploading for peer review: https://drive.google.com/drive/folders/1W-FplVDW2b9qG9BDEaPMNEMWRsFrJabE?usp=drive_link",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -124,7 +94,7 @@
     "href": "02-Main/grading.html",
     "title": "Grading",
     "section": "",
-    "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nParticipation\n10%\nsee syllabus for details\n\n\nQuizzes\n15%\nwritten\n\n\nMidterms\n20%\nwritten\n\n\nGroup Projects\n40%\ncoding\n\n\nFinal Exam\n15%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
+    "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nParticipation\n15%\nsee syllabus for details\n\n\nQuizzes\n30%\nwritten\n\n\nGroup Projects\n40%\ncoding\n\n\nFinal Exam\n15%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Grading</span>"
     ]
@@ -145,7 +115,7 @@
     "href": "04-Notes/week1.html",
     "title": "Week 1",
     "section": "",
-    "text": "Notes from Week 1",
+    "text": "Notes from Week 1\n\nTherac article",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 1</span>"
