@@ -1,0 +1,25 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 2 Day 1
+date: April, 6, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+---
+
+NAME(S):  
+
+![Pseudocode Vocabulary](function.pdf){ width=450px }
+
+# Prompt: Write an algorithm *in pseudocode* that simulates how a protein is synthesized from DNA (according to the Central Dogma).
