@@ -54,7 +54,37 @@
     "href": "02-Main/resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Google Colab Pro",
+    "text": "Python",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#python",
+    "href": "02-Main/resources.html#python",
+    "title": "Resources",
+    "section": "",
+    "text": "Python 3.13.X: the software package needed to write and run Python programs\nhttps://www.anaconda.com/download/success?reg=skipped",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#python-documentation",
+    "href": "02-Main/resources.html#python-documentation",
+    "title": "Resources",
+    "section": "Python Documentation",
+    "text": "Python Documentation\n\nOfficial Documentaion: https://docs.python.org/3/index.html\nCan always be used as a reference\nCan be searched for module-specific documentation e.g. turtle",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#gradescope-used-to-submit-programming-assignments",
+    "href": "02-Main/resources.html#gradescope-used-to-submit-programming-assignments",
+    "title": "Resources",
+    "section": "Gradescope: used to submit programming assignments",
+    "text": "Gradescope: used to submit programming assignments\n\nhttps://www.gradescope.com/courses/1287277\nEntry Code:G6J44N",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -63,8 +93,8 @@
     "objectID": "02-Main/resources.html#google-colab-pro",
     "href": "02-Main/resources.html#google-colab-pro",
     "title": "Resources",
-    "section": "",
-    "text": "Pro account sign-up: https://colab.research.google.com/signup\nUse your Union email\nA pro account is not needed for this course, just an option Union pays for\nNotes template: https://colab.research.google.com/drive/15rPmKyQKCCbwsdDCpC39o8hczWZ-B5zV?usp=sharing",
+    "section": "Google Colab Pro",
+    "text": "Google Colab Pro\n\nPro account sign-up: https://colab.research.google.com/signup\nUse your Union email\nA pro account is not needed for this course, just an option Union pays for\nNotes template: https://colab.research.google.com/drive/15rPmKyQKCCbwsdDCpC39o8hczWZ-B5zV?usp=sharing",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -75,6 +105,26 @@
     "title": "Resources",
     "section": "Python Style Guide",
     "text": "Python Style Guide\n\nPEP 8\nshould be used in all code cells of Colab notebooks\nLink: https://peps.python.org/pep-0008/",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#computer-labs",
+    "href": "02-Main/resources.html#computer-labs",
+    "title": "Resources",
+    "section": "Computer Labs",
+    "text": "Computer Labs\n\nOlin 107\nPASTA Lab (ISEC 051+)\nComputer Science Resource room (Steinmetz Hall, 209A)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#for-help-on-your-homework-and-projects-available-to-your-are",
+    "href": "02-Main/resources.html#for-help-on-your-homework-and-projects-available-to-your-are",
+    "title": "Resources",
+    "section": "For help on your homework and projects, available to your are:",
+    "text": "For help on your homework and projects, available to your are:\n\nCS Helpdesk (Olin 107, Sun-Thurs 7:00-9:00pm)\nBiology Backup (ISEC 316, Tues & Thurs 5:30-7:30pm)",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]

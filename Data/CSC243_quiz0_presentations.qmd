@@ -1,0 +1,35 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 2
+date: April, 6, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+---
+
+NAME(S):  
+
+
+# Quiz 0: Presentations
+
+* Each topic will be presented on a different day, but the grades will all be for Quiz 0
+* Worth 5% of your final grade
+
+# Topic:
+
+# Date:
+
+
+* attach a pdf of any materials you used for your presentation and submit to gradescope
+
