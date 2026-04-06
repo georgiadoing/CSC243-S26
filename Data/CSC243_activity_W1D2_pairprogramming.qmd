@@ -1,0 +1,59 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 1 Day 1
+date: April, 1, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+---
+
+NAME(S):  
+
+
+# Pair Programming
+
+Pair programming guidelines:
+
+* Roles: 
+    +	driver: has the keyboard and types
+    +	navigator: guides the driver
+
+* Instructions:
+    + You should be talking to each other constantly!
+    + You should be able to swap roles at any moment.
+    + Swap roles every 5 to 10 minutes.
+
+* Further description: <https://en.wikipedia.org/wiki/Pair_programming>
+* Description of benefits: <https://dl.acm.org/doi/10.1145/1345375.1345420>
+
+# Dos and Dont's
+
+* Do: Be respectful
+* Do: Talk to each other
+* Do: Listen to each other
+* Do: Explain what you are doing (especially as the driver)
+* Do: Think ahead and make suggestions (especially as the navigator)
+* Do: Switch roles often
+
+* Don’t: Be an overly directive navigator
+* Don’t: Grab the driver’s mouse/keyboard
+* Don’t: Type silently
+
+# Practice
+
+* write a function that prints a string of letters that could be a DNA sequence
+* write a function that takes a DNA sequence as input (string) and prints the number of nucleotides it contains (length) 
+* write a function for a MadLib
+* write a main() function that calls your MadLib
+* remember to comment your program with a header, docstrings and in-line comments explaining your code
