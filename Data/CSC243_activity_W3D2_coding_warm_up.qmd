@@ -1,0 +1,67 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 3 Day 2
+date: April, 15, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+---
+
+NAME(S):  
+
+# Objectives
+
+* To practice pair programming
+* To practice python syntax
+
+
+# Reminders for Pair Programming
+
+Pair programming guidelines:
+
+* Roles: 
+    +	driver: has the keyboard and types
+    +	navigator: guides the driver
+
+* Instructions:
+    + You should be talking to each other constantly!
+    + You should be able to swap roles at any moment.
+    + Swap roles every 5 to 10 minutes.
+
+
+# Dos and Dont's
+
+* Do: Be respectful
+* Do: Talk to each other
+* Do: Listen to each other
+* Do: Explain what you are doing (especially as the driver)
+* Do: Think ahead and make suggestions (especially as the navigator)
+* Do: Switch roles often
+
+* Don’t: Be an overly directive navigator
+* Don’t: Grab the driver’s mouse/keyboard
+* Don’t: Type silently
+
+# Practice the following in IDLE:
+
+1. Start with the group member who is __most__ confortable coding as the __navigator__.
+2. Write a function that does not take any parameters nor returns any values.
+    + it may print a message, perform operations, check a condition, etc.
+3. Write a function that takes a string as a parameter and prints each character.
+    + the characters can each be on their own line, or on the same line separated by spaces
+4. Write a function that takes a string and two integers as a parameter and returns the substring where the starting index is the first number and the last index is the latter number.
+    + are there any conditions the function should check before finding the substring?
+5. Be sure to call all your functions with various arguments to test them.
+6. Trace at least one of your function calls using memory diagrams in the white space below.
+7. Each group member should submit this practice code along with their codon activity.

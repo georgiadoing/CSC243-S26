@@ -80,6 +80,36 @@
     ]
   },
   {
+    "objectID": "02-Main/resources.html#think-python",
+    "href": "02-Main/resources.html#think-python",
+    "title": "Resources",
+    "section": "Think Python",
+    "text": "Think Python\n\nonline version of python texbook: https://allendowney.github.io/ThinkPython/\nscroll down to see the interactice google colab notebooks you can copy to your google drive and edit for practice",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#rosalind-problems",
+    "href": "02-Main/resources.html#rosalind-problems",
+    "title": "Resources",
+    "section": "Rosalind Problems",
+    "text": "Rosalind Problems\n\nfor python practice: Python Village\nfor more bioinformatics problems: Bioinformatics Stronghold\npractice using existing tools (databases, webservers, etc.): Bioinformatics Armory",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#runestone-interactive-python-practice",
+    "href": "02-Main/resources.html#runestone-interactive-python-practice",
+    "title": "Resources",
+    "section": "Runestone (interactive python practice)",
+    "text": "Runestone (interactive python practice)\n\nregister for an online python practice course (free)\nenter the following as the course name: unioncollege_csc243_spring26\ncheck out chapters on variables, loops, functions and more python syntax\nincludes small practice problems to help you become familiar with useful code\nRunestone has many other open-access online texbooks as well: https://runestone.academy/ns/books/index",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
     "objectID": "02-Main/resources.html#gradescope-used-to-submit-programming-assignments",
     "href": "02-Main/resources.html#gradescope-used-to-submit-programming-assignments",
     "title": "Resources",
@@ -231,7 +261,7 @@
     "href": "04-Notes/week3.html",
     "title": "Week 3",
     "section": "",
-    "text": "Mon: Practicing Functions and the Genetic Code\n\nnote, the above activity was handed out in class last Friday\ndemo code of comments and functions\nslides from week 2 on introductions to the central dogma and the genetic code\nslides from student presentations\n\nWed: Practicing Conditionals, Loops and Protein Tranlsation\n\nalgorithm design reference\npseudocode translation reference\n\nFri: Quiz #2\n\nDNA replication, transcription, translation\nfunctions, loops, conditionals\npseudocode, algorithm design",
+    "text": "Mon: Practicing Functions and the Genetic Code\n\nnote, the above activity was handed out in class last Friday\ndemo code of comments and functions\nslides from week 2 on introductions to the central dogma and the genetic code\nslides from student presentations\n\nWed: Coding Warm-up\n\nPracticing Conditionals, Loops and Protein Tranlsation\nalgorithm design reference\npseudocode translation reference\n\nFri: Quiz #2\n\nDNA replication, transcription, translation\nfunctions, loops, conditionals\npseudocode, algorithm design",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"

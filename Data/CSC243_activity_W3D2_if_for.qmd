@@ -1,5 +1,5 @@
 ---
-title: CSC/BIO 243 Bioinformatics, Week 2
+title: CSC/BIO 243 Bioinformatics, Week 3
 date: April, 15, 2026
 eval: true
 format: 
