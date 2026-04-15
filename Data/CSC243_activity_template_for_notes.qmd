@@ -1,0 +1,32 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 3 Day 2
+date: April, 15, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+`\rule{\linewidth}{.25mm}`{=tex}
+
+# Presentation Topic:
+
+# Presenter:
+
+
+# Notes:
+

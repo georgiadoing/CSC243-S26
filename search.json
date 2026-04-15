@@ -54,7 +54,17 @@
     "href": "02-Main/resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Python",
+    "text": "Amoeba Sisters",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#amoeba-sisters",
+    "href": "02-Main/resources.html#amoeba-sisters",
+    "title": "Resources",
+    "section": "",
+    "text": "videos (and more!) explaining bio topics: https://www.amoebasisters.com/",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -63,8 +73,8 @@
     "objectID": "02-Main/resources.html#python",
     "href": "02-Main/resources.html#python",
     "title": "Resources",
-    "section": "",
-    "text": "Python 3.13.X: the software package needed to write and run Python programs\nhttps://www.anaconda.com/download/success?reg=skipped",
+    "section": "Python",
+    "text": "Python\n\nPython 3.13.X: the software package needed to write and run Python programs\nhttps://www.anaconda.com/download/success?reg=skipped",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
