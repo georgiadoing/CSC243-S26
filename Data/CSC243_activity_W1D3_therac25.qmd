@@ -1,0 +1,35 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 1 Day 3
+date: April, 3, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+    pptx:
+        incremental: true
+        reference-doc: ../teaching_template2.pptx
+    ipynb:
+        title:  "CSC/BIO 243 Bioinformatics"
+jupyter: python3
+---
+
+NAME(S):  
+
+
+# Prompt: What went wrong in the Therac-25 case study? 
+
+* What went wrong from the persepctive of a *biologist*?
+* What went wrong from the persepctive of a *computer scientist*?
+* What went wrong from the persepctive of a *human* (any of the different people affected)?
+

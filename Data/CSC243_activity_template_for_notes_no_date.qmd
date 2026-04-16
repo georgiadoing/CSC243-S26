@@ -1,0 +1,34 @@
+---
+title: CSC/BIO 243 Bioinformatics Notes on Presentations (0.5 pts for engagement)
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+`\rule{\linewidth}{.25mm}`{=tex}
+
+# Presentation Topic:
+
+# Presenter:
+
+# Date:
+
+# Notes:
+
+* circle what you think was the *most* important piece of information
+* include *at least* one question to ask the presenter
