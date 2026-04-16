@@ -1,6 +1,6 @@
 ---
-title: CSC/BIO 243 Bioinformatics, Week 3 Day 2
-date: April, 15, 2026
+title: CSC/BIO 243 Bioinformatics, Week 3 Day 3 (0.5 pts for engagement)
+date: April, 17, 2026
 eval: true
 format: 
     pdf:
@@ -30,3 +30,5 @@ NAME(S):
 
 # Notes:
 
+* circle what you think was the *most* important piece of information
+* include *at least* one question to ask the presenter
