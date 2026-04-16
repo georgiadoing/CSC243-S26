@@ -132,7 +132,7 @@ It is the policy of Union College to make reasonable accommodations for qualifie
 
 # GRADING
 
-Some weeks I will give you *homework problem exercises*. You will complete these and submit them online, but they will not contribute to your final grade. Rather, they will prepare you for weekly *in-class quizzes*. There will be 2 *group projects*, and a *final exam*. Finally, class attendance, participation and engagement are critical components of the course. 
+Some weeks I will give you *homework programming exercises*. You will complete these and submit them online, but they will not contribute to your final grade. Rather, they will prepare you for weekly *in-class quizzes*. There will be 2 *group projects*, and a *final exam*. Finally, class attendance, participation and engagement are critical components of the course. 
 
 
 
@@ -170,7 +170,7 @@ If you do miss class, it is your responsibility to make up any material that you
 
 # PARTICIPATION AND ENGAGEMENT		
 
-Following these guidelines will constitute postiive participation and engagement and earn you up to a 0.5% of your final grade per class **for demonstrated comprehension of in-class and/or homework assignments as recorded by written answers which are submitted for collection**:
+Following these guidelines will constitute postiive participation and engagement and earn you up to a 0.5% of your final grade per activity/assignment **for demonstrated comprehension of in-class and/or homework assignments as recorded by written answers which are submitted for collection**:
 
 * Respect. This course is a space for rigorous and respectful debate. When confronting ideas and people different from you, lead with curiosity rather than judgement. We will critique ideas, not people. To protect our shared learning environment, you may not record, photograph, or share any part of our class sessions outside of our class. 
 
