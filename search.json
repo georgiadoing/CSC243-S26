@@ -170,23 +170,13 @@
     ]
   },
   {
-    "objectID": "02-Main/syllabus.html",
-    "href": "02-Main/syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Syllabus\n\ncheck for updates!",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Syllabus</span>"
-    ]
-  },
-  {
     "objectID": "02-Main/grading.html",
     "href": "02-Main/grading.html",
     "title": "Grading",
     "section": "",
     "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nParticipation & Engagement\n15%\nwritten answers collected and scanned, 0.5% per activity: itemized list\n\n\nQuizzes\n30%\n5 written, 1 oral presentation\n\n\nGroup Projects\n40%\ncoding & written\n\n\nFinal Exam\n15%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Grading</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Grading</span>"
     ]
   },
   {
@@ -197,7 +187,7 @@
     "text": "CSC/BIO 243: Assignment 1",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW 01</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>HW 01</span>"
     ]
   },
   {
@@ -208,7 +198,7 @@
     "text": "Part 1\n\nIntro Survey\nRead the Therac25 case study summary and one more detailed article (linked in week1 notes, you can choose one of the two longer articles on the notes page or find another if you prefer. Read critically and carefully and come to class Wednesday 4/1/26 ready to discuss.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW 01</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>HW 01</span>"
     ]
   },
   {
@@ -219,7 +209,7 @@
     "text": "Part 2\n\nPrepare a 5 minute introduction to a topic for which you bring background knowledge to this class\n\nyou can use slides, write on the board and/or have me post/print out handouts\n\nEach topic will be presented at the beginning of the relevent class day: Topic Sign-up and Schedule\nBased on the results on the survey, I have done my best to match students to topics they are already familiar with, HOWEVER, you should MOVE or ADD your name so you are comfortable with your topic\nUp to 2 students can sign up for each topic\nQuestions that arise as you are preparing your topic are great reasons to come to office hours, I am happy to work with you!\nThis presentation will earn you one quiz grade, “Quiz 0” (5% of your final grade)",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW 01</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>HW 01</span>"
     ]
   },
   {
@@ -230,7 +220,7 @@
     "text": "CSC/BIO 243: Assignment 2 (0.5 pts)\n\ndue Monday 4/20/26 by class time (11:45 am)\n\n* due Friday 4/17/26 by class time (11:45 am)\n* due Wednesday 4/15/26 by class time (11:45 am)\n* due Monday 4/13/26 by class time (11:45 am)\n\nRemember to check the schedule for readings: https://georgiadoing.github.io/CSC243-S26/02-Main/schedule.html\nFinish the ‘Practicing Functions and the Genetic Code’ activity that was started in-class as Pair Programming\n\nBring your written answers to class next Monday Wednesday Friday (0.5 engagement points awarded on these)\nYou will submit your code, individually, to gradescope\n\nsubmitted code does not hold point values for correctness, but is your only chance to receive feedback and start to familiarize yourself with the expectations for graded projects\n\nBe sure to add any additional comments (header, description, pseudocode, inline) so the code is a final product rather than a draft\nYou do not need to work on a lab computer (although you always can!), but you should still be working in Idle or a plain text editor, not an Integrated Develeopment Environment (IDE) or a source-code editor with extentions (if this jargon doesn’t mean anything to you, you are safe)\n\nMake sure you are caught up on engagement activities\nKeep checking this page for any updates…",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>HW 02</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW 02</span>"
     ]
   },
   {
@@ -241,7 +231,7 @@
     "text": "CSC/BIO 243: Assignment 3 (0.5 pts)\n\ndue Wednesday 4/22/26 by class time (11:45 am)\nRemember to check the schedule for readings: https://georgiadoing.github.io/CSC243-S26/02-Main/schedule.html\nFinish the ‘Practicing Conditionals, Loops and Protein Tranlsation’ activity that was started in-class as Pair Programming\n\nBring your written answers to class next Wednesday (0.5 engagement points awarded on these)\nYou will submit your code, individually, to gradescope\n\nsubmitted code does not hold point values for correctness, but is your only chance to receive feedback and start to familiarize yourself with the expectations for graded projects\n\nBe sure to add any additional comments (header, description, pseudocode, inline) so the code is a final product rather than a draft\nYou do not need to work on a lab computer (although you always can!), but you should still be working in Idle or a plain text editor, not an Integrated Develeopment Environment (IDE) or a source-code editor with extentions (if this jargon doesn’t mean anything to you, you are safe)\n\nMake sure you are caught up on engagement activities\nKeep checking this page for any updates…",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>HW 03</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>HW 03</span>"
     ]
   },
   {
@@ -252,7 +242,7 @@
     "text": "Notes from Week 1\n\nFor Reading/HW\n\nTherac25 Summary\nTherac25 Leveson\nTherac25 Silvis\n\n\n\nMonday in class\n\nNo More DNA (0.5 pts)\n\n\n\nWednesday in class\n\nSlides\nWhat are computers good at? (0.5 pts)\n\n\n\nFriday in class\n\nAnatomy of a function\nLogging on to lab computers\nPair Programming\nRosalind Problems for Learning Python\nRosalind Bioinformatics Practice Problems\nRosalind Bioinformatics Textbook Problems",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 1</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 1</span>"
     ]
   },
   {
@@ -263,7 +253,7 @@
     "text": "Mon:\n\nTherac25 discussion (see notes from last week)\nTherac25 in class prompt (0.5 pts)\nPseudocode practice activity (0.5 pts)\n\nWed: Practicing Functions and the Genetic Code\n\nnote, we will start the above activity in class on Friday\ndemo code of comments and functions\ndemo code to make random pairs of bio-cs names\npresentation on Iteration and note taking activity (0.5 pts)\n\nFri: we will have a quiz on material up through Monday\n\nwe will talk more about what DNA is and how it is turned into protein and/or replicated\nwe will also begin the assignment above as a pair programming activity\npresentation on DNA replication and note taking activity (0.5 pts)",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 2</span>"
     ]
   },
   {
@@ -274,7 +264,7 @@
     "text": "Mon: Practicing Functions and the Genetic Code\n\nnote, the above activity was handed out in class last Friday\ndemo code of comments and functions\nslides from week 2 on introductions to the central dogma and the genetic code\nslides from student presentations\npresentation on Conditionalsand note taking activity (0.5 pts)\n\nWed: Coding Warm-up\n\nPracticing Conditionals, Loops and Protein Tranlsation\nalgorithm design reference\npseudocode translation reference\npresentation on Function Design and note taking activity (0.5 pts)\n\nFri: Quiz #2\n\nDNA replication, transcription, translation\nfunctions, loops, conditionals\npseudocode, algorithm design\npresentation on Protein Synthesis and note taking activity (0.5 pts)",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 3</span>"
     ]
   }
 ]
