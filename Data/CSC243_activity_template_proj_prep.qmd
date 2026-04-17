@@ -1,0 +1,54 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 3 Day 3 
+date: April, 17, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME:  
+
+`\rule{\linewidth}{.25mm}`{=tex}
+
+# Partner(s):
+
+# Activity/Assignment: Practicing Conditionals, Loops and Protein Tranlsation
+
+
+# Group work preparation:
+* submit this page next week with your written answers to questions from the activity 
+
+1. What knowledge and or skills will you need to complete this assignment?
+
+\vspace{5em}
+
+2. Do you know where can you gain those, independently, before beginning work? If so, what resources will you use?
+
+\vspace{5em}
+
+3. What will you be relying on from your partner(s)? What knowledge and or skills will your partner(s) need to complete this assignment?
+
+\vspace{5em}
+
+5. What resources (could be from the course website or from anywhere else) can you suggest they use to gain that knowledge and skills independently?
+
+\vspace{7em}
+
+
+6. What resources did they suggest for you?
+
+\vspace{5em}
+
