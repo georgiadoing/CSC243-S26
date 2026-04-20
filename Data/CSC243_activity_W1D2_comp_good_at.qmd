@@ -1,0 +1,42 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 1 Day 2
+date: April, 1, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+---
+
+NAME(S):  
+
+
+# Prompt: What are computers good at?
+
+| Good or Poor | Task     | Reason                            | |
+| ---- | ------------------------- | -------------------------------- |-|
+|     |    Calculating the number of times that adenine appears in a DNA sequence that a person writes on a sheet of paper   |    | 
+|   |  |   |
+|     |  Automatically inventing new designs for commercial products (like car bumpers, dishwasher detergent bottles, etc.)   |     | 
+|   |  |   |
+|     |	Getting a humanoid robot (i.e. has legs) to successfully go up or down stairs  |   | 
+|   |  |   |
+|     |   Playing a game of tic-tac-toe              |   | 
+|   |  |   |
+|     |   Adjust its own behavior when it makes mistakes  |        | 
+|   |  |   |
+|     |  Finding the factors of a large (200-digit) number.  (Recall: the factors of 6 are 1,2,3,6)      |  | 
+|   |  |   |
+|     |  Recognizing a song after someone hums the tune  |   | 
+|   |  |   |
+
