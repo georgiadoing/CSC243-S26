@@ -54,7 +54,17 @@
     "href": "02-Main/resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Amoeba Sisters",
+    "text": "Slides from Presentations",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#slides-from-presentations",
+    "href": "02-Main/resources.html#slides-from-presentations",
+    "title": "Resources",
+    "section": "",
+    "text": "check for updates often\nincludes student presentations and lecture slides\nuse these slides to make up missed engagement points\nFolder of slides",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -63,8 +73,8 @@
     "objectID": "02-Main/resources.html#amoeba-sisters",
     "href": "02-Main/resources.html#amoeba-sisters",
     "title": "Resources",
-    "section": "",
-    "text": "videos (and more!) explaining bio topics: https://www.amoebasisters.com/",
+    "section": "Amoeba Sisters",
+    "text": "Amoeba Sisters\n\nvideos (and more!) explaining bio topics: https://www.amoebasisters.com/",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
