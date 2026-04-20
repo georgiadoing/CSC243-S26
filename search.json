@@ -282,18 +282,7 @@
     "href": "04-Notes/week4.html",
     "title": "Week 4",
     "section": "",
-    "text": "Data Links",
-    "crumbs": [
-      "Weekly Notes",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 4</span>"
-    ]
-  },
-  {
-    "objectID": "04-Notes/week4.html#data-links",
-    "href": "04-Notes/week4.html#data-links",
-    "title": "Week 4",
-    "section": "",
-    "text": "course website data path prefix: https://georgiadoing.github.io/CSC233-W26/Data/\n\navailable datasets:\npresident_heights.csv\nSeattle2014.csv\nstate_example.csv\nEmployee_ID_NAME_One.csv\nEmployee_ID_NAME_Two.csv\nEmployee_ID_SPECIALTY.csv\ntitanic_train.csv\ntime_series.csv\n\nstate_example.csv: https://georgiadoing.github.io/CSC233-W26/Data/state_example.csv\nIn-class notes for Week 4",
+    "text": "Mon:\n\npresentation on Strings and Lists with note taking activity (0.5 pts)\nnew slides continuing protein synthesis and mutations\ncontinuing with Practicing Conditionals, Loops and Protein Tranlsation\n\n(begin by working in pairs in class, then finish independenlty as part of HW3 for 0.5 pts)\n\nalgorithm design reference\npseudocode translation reference\n\nWed:\n\npresentation on Iteration with note taking activity (0.5 pts)\nmoving on to the next programming activity… will turn into HW 4\n\nFri: Quiz #3\n\npresentation on DNA Sequencing with note taking activity (0.5 pts)",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 4</span>"
