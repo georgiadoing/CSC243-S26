@@ -14,7 +14,7 @@
     "href": "index.html#announcements",
     "title": "Course: CSC/BIO243: Bioinformatics",
     "section": "Announcements",
-    "text": "Announcements\nWelcome! You may want to bookmark this page for the term.\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 3:00 pm - 4:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
+    "text": "Announcements\nACM-W Hackathon this Saturday (5/2/26)\n\nall majors welcome!\ncome solo or in teams of up to 4\nregistration at 9 am in Karp Hall\nHackUnion from 10 am - 5 pm\nprizes!\n\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 3:00 pm - 4:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -255,6 +255,28 @@
     ]
   },
   {
+    "objectID": "03-Assignments/csc243_hw04.html",
+    "href": "03-Assignments/csc243_hw04.html",
+    "title": "HW 04",
+    "section": "",
+    "text": "CSC/BIO 243: Assignment 4 (0.5 pts)\n\ndue Friday 5/1/26 by class time (11:45 am)\nRemember to check the schedule for readings: https://georgiadoing.github.io/CSC243-S26/02-Main/schedule.html\nFinish the Sequence Alignment (0.5 pts) that was started in-class as Pair Programming\n\nBring your written answers to class Friday 5/1/26 (0.5 engagement points awarded on these)\nYou will submit your code, individually, to gradescope\n\nsubmitted code does not hold point values for correctness, but is your only chance to receive feedback and start to familiarize yourself with the expectations for graded projects\n\nBe sure to add any additional comments (header, description, pseudocode, inline) so the code is a final product rather than a draft\nYou do not need to work on a lab computer (although you always can!), but you should still be working in Idle or a plain text editor, not an Integrated Develeopment Environment (IDE) or a source-code editor with extentions (if this jargon doesn’t mean anything to you, you are safe)\n\nMake sure you are caught up on engagement activities",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>HW 04</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc243_hw05.html",
+    "href": "03-Assignments/csc243_hw05.html",
+    "title": "HW 05",
+    "section": "",
+    "text": "CSC/BIO 243: Assignment 5 (0.5 pts)\n\ndue Monday 5/11/26 by class time (11:45 am)\nRemember to check the schedule for readings: https://georgiadoing.github.io/CSC243-S26/02-Main/schedule.html\nFinish the ORF Finder (0.5 pts) that was started in-class as Pair Programming\n\nBring your written answers to class Monday 5/11/26 (0.5 engagement points awarded on these)\n\nMake sure you are caught up on engagement activities",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>HW 05</span>"
+    ]
+  },
+  {
     "objectID": "04-Notes/week1.html",
     "href": "04-Notes/week1.html",
     "title": "Week 1",
@@ -262,7 +284,7 @@
     "text": "Notes from Week 1\n\nFor Reading/HW\n\nTherac25 Summary\nTherac25 Leveson\nTherac25 Silvis\n\n\n\nMonday in class\n\nNo More DNA (0.5 pts)\n\n\n\nWednesday in class\n\nSlides\nWhat are computers good at? (0.5 pts)\n\n\n\nFriday in class\n\nAnatomy of a function\nLogging on to lab computers\nPair Programming\nRosalind Problems for Learning Python\nRosalind Bioinformatics Practice Problems\nRosalind Bioinformatics Textbook Problems",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 1</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 1</span>"
     ]
   },
   {
@@ -273,7 +295,7 @@
     "text": "Mon:\n\nTherac25 discussion (see notes from last week)\nTherac25 in class prompt (0.5 pts)\nPseudocode practice activity (0.5 pts)\n\nWed: Practicing Functions and the Genetic Code\n\nnote, we will start the above activity in class on Friday\ndemo code of comments and functions\ndemo code to make random pairs of bio-cs names\npresentation on Iteration and note taking activity (0.5 pts)\n\nFri: we will have a quiz on material up through Monday\n\nwe will talk more about what DNA is and how it is turned into protein and/or replicated\nwe will also begin the assignment above as a pair programming activity\npresentation on DNA replication and note taking activity (0.5 pts)",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 2</span>"
     ]
   },
   {
@@ -284,7 +306,7 @@
     "text": "Mon:\n\nPracticing Functions and the Genetic Code\n\n(finish independenlty as part of HW2 for 0.5 pts)\nnote, the above activity was handed out in class last Friday\n\ndemo code of comments and functions\nslides from week 2 on introductions to the central dogma and the genetic code\nslides from student presentations\npresentation on Conditionals and note taking activity (0.5 pts)\n\nWed:\n\nCoding Warm-up\nPracticing Conditionals, Loops and Protein Tranlsation\n\n(begin by working in pairs in class, next week finish independenlty as part of HW3 for 0.5 pts)\n\nalgorithm design reference\npseudocode translation reference\npresentation on Function Design and note taking activity (0.5 pts)\n\nFri: Quiz #2\n\nDNA replication, transcription, translation\nfunctions, loops, conditionals\npseudocode, algorithm design\npresentation on Protein Synthesis and note taking activity (0.5 pts)\npreparation for “Protein Translation” coding activity in groups\n\n(submit with Practicing Conditionals, Loops and Protein Tranlsation as part of HW3 for 0.5 pts)",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -295,7 +317,18 @@
     "text": "Mon:\n\npresentation on Strings and Lists with note taking activity (0.5 pts)\nnew slides continuing protein synthesis and mutations\ncontinuing with Practicing Conditionals, Loops and Protein Tranlsation\n\n(begin by working in pairs in class, then finish independenlty as part of HW3 for 0.5 pts)\n\nalgorithm design reference\npseudocode translation reference\n\nWed:\n\npresentation on Iteration with note taking activity (0.5 pts)\nmoving on to the next programming activity… will turn into HW 4\n\nFri: Quiz #3\n\npresentation on DNA Sequencing with note taking activity (0.5 pts)",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 4</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Week 4</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week5.html",
+    "href": "04-Notes/week5.html",
+    "title": "Week 5",
+    "section": "",
+    "text": "Mon:\n\npresentation on Libraries with note taking activity (0.5 pts)\nnew slides\ncontinuing with Sequence Alignment (0.5 pts)\n\n(begin by working in pairs in class, then finish independenlty as part of HW4 for 0.5 pts)\n\nalgorithm design reference\npseudocode translation reference\n\nWed:\n\npresentation on RNA-seq with note taking activity (0.5 pts)\n\nFri: Quiz #4\n\nbegin ORF Finder (0.5 pts) (final practice group activity before graded group projects)",
+    "crumbs": [
+      "Weekly Notes",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 5</span>"
     ]
   }
 ]
