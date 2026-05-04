@@ -14,7 +14,7 @@
     "href": "index.html#announcements",
     "title": "Course: CSC/BIO243: Bioinformatics",
     "section": "Announcements",
-    "text": "Announcements\nStienmetz Day Friday no class (5/8/26)\n\nQuiz 5 (last quiz) will be Monday (5/11/26)\n\nwill ask for at least 1 interdisciplinary thing you learned at Stienmetz day\n\n\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 3:00 pm - 4:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
+    "text": "Announcements\nStienmetz Day Friday no class (5/8/26)\n\nQuiz 5 (last quiz) will be Monday (5/11/26)\n\nwill ask for at least 1 interdisciplinary thing you learned at Stienmetz day\n\nfirst group project due Friday 5/22/26 by class time (11:45 am)\n\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 3:00 pm - 4:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -358,7 +358,7 @@
     "href": "04-Notes/week6.html",
     "title": "Week 6",
     "section": "",
-    "text": "Mon:\n\npresentation on Dynamic Programming with note taking activity (0.5 pts)\ncontinuing with slides\ncontinuing with ORF Finder (0.5 pts)\norf_finder_starter.py\nGene X Genomic Seq\nGene X cDNA Seq\n\nWed:\n\npresentation on Python modules note taking activity (0.5 pts)\ncontinuing with ORF Finder (0.5 pts)\n\n(begin by working in pairs in class, then finish independenlty as part of HW5 for 0.5 pts)\n\nassign groups for Project 1: Having a Blast\n\nFri: Stienmetz Day!\n\nQuiz 5, final quiz, will be on Monday: describe something interdisciplinary you learned at Stienmetz Day",
+    "text": "Mon:\n\npresentation on Dynamic Programming with note taking activity (0.5 pts)\n\ndynamic programming solution for BLAST: the Needleman-Wunsch Alignment Algorithm\n\ncontinuing with slides\ncontinuing with ORF Finder (0.5 pts)\norf_finder_starter.py\nGene X Genomic Seq\nGene X cDNA Seq\n\nWed:\n\npresentation on Python modules note taking activity (0.5 pts)\ncontinuing with ORF Finder (0.5 pts)\n\n(begin by working in pairs in class, then finish independenlty as part of HW5 for 0.5 pts)\n\nassign groups for Project 1: Having a Blast\n\nFri: Stienmetz Day!\n\nQuiz 5, final quiz, will be on Monday: describe something interdisciplinary you learned at Stienmetz Day",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>Week 6</span>"

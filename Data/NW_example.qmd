@@ -1,19 +1,21 @@
 ---
-title: CSC 483 - Needleman-Wunsch Example
-author: doingg@union.edu
-date: 1/21/26
+title: CSC/BIO 243 Bioinformatics, Week 6
+date: May 4th, 2026
 eval: true
 format: 
     pdf:
         number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
         mainfont: "Avenir"
         sansfont: "Avenir"
-    pptx:
-        incremental: true
-        reference-doc: ../teaching_template2.pptx
-    ipynb:
-        title:  "Needleman-Wunsch Example"
-jupyter: python3
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
 ---
 
 # Intructions for the Needleman-Wunsch Alignment Algorithm
