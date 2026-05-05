@@ -1,6 +1,6 @@
 ---
 title: CSC/BIO 243 Bioinformatics, Week 6
-date: May 4th, 2026
+date: May, 6, 2026
 eval: true
 format: 
     pdf:
@@ -88,6 +88,10 @@ $$
 \end{center}
 
 2. Once all squares are filled, **the bottom right corner has your best possible score**.
+
+3. The best alignment itself is created by re-tracing the path (indices) that led to the best possible score. Diagonal arrows indicate alignment of nucleotides from both sequences; left arrows indicate a gap in Seq $X$; up arrows indicate a gap in Seq $Y$. 
+
+* Since alignments are created with backward tracing, nucleotides get added in **reverse** order. The last, rightmost, nucleotides get recorded first and preceeding nucleotides (and gaps) get prepended on the left of each sequence.
 
 
 ### Example
@@ -404,7 +408,7 @@ Option 1, diagonal arrow, add both nt:
 >Seq $Y$:    &nbsp; &nbsp; &nbsp;  AGC  
 >Match:   &nbsp; &nbsp; &nbsp; **
 
-Option 2, up arrow, add a gap to Seq2 ($i$ indices):
+Option 2, up arrow, add a gap to Seq $X$ ($i$ indices):
 
 >Seq $X$:   &nbsp; &nbsp; &nbsp;   &ndash;GT  
 > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $|$ $|$  $|$  
@@ -413,7 +417,7 @@ Option 2, up arrow, add a gap to Seq2 ($i$ indices):
 
 Finishing out the trace, we can choose an option (maybe follow the arrow that points to the higher score) or we can follow both options:
 
-Option 1, now we are at $i=0,j=1$ with an up arrow so add a gap to Seq2:
+Option 1, now we are at $i=0,j=1$ with an up arrow so add a gap to Seq $X$:
 
 >Seq $X$:   &nbsp; &nbsp;   &ndash;AGT  
 > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $|$ $|$ $|$  $|$  
