@@ -1,0 +1,83 @@
+---
+title: CSC/BIO 243 Bioinformatics, Having a BLAST - OUTLINE (part of peer review in rubric)
+date: May, 11, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 0
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble3.tex
+---
+# Group Project 1: Having a BLAST - OUTLINE
+
+
+### Objectives of the outline
+
+* To check-in on the progress of writing and testing programs
+* To implement constructuve peer review
+* To help you improve the quality of your project before it is ultimately graded
+
+# Suggested elements of your outline
+
+In a written document, ultimately submitted as a pdf, outline your groups current status, progress made so far and plans to complete your project (included who has done what and who will do what). I have copied the project outline at the end of this assignment as a reminder. The exact format of the outline is yours to decide as a group - this outline should be a useful roadmap for your group so choose whatever format is the most helpful to you. I suggest you touch base as a time and include in your outline status updates for the following elements:
+
+1. CS elements
+  * does each group member understand the N-W algorithm?
+  * how will you implement scoring and path matrices?
+  * what is the pseudocode for `countMatrices` and `longest_consecutive`?
+
+2. Bio elements
+  * what test data have you decided to use?
+  * what conclusions are you expecting to be able to make - what hypothesis might you be testing and what results do you expect?
+
+3. Reflections
+  * how will you distribute the work of the write-up?
+  * Note: indidivudal peer reviews will be submitted as part of the outline check-in but will be indidivudal (in a different gradescope submission) so they are confidential
+
+
+### Reminder of Your Mission
+
+You are to write a program that takes two protein sequences as input (hard coded is ok) and outputs the best alignment using the Needleman-Wunsch algorithm. You will get the most out of this project if you put effort into working as a team: communicating with your colleagues early and often. Additionally, in your write-up you should answer the following questions:
+
+
+1.	Is your program doing a global or a local alignment? 
+2.	Based on your answer to the previous question, explain why you got the test results you gdid. 
+3.	In what ways could you modify the alignment matcher you wrote to be more biologically sound? 
+
+### Reminder of the rubric
+
+Please turn in all Python files, including `nw_blast.py`, and the write-up named `nw_blast.pdf` on gradescope.  Don't forget to put the honor code affirmation in the comments of both.
+
+```{=latex}
+\footnotesize
+```
+
+|          | Exceeding expectations  (1x)     | Arriving at expectations (1.5x)     | Not meeting Expectations (0.5x)    |   
+|-------|----------------------|---------------------|-----------------------|
+| CS elements    | Correct implementation of N-W algorithm | Correct logic of N-W algorithm but with semantic error   | Incorrect logic of N-W algorithm |   
+|      (6 pts)        |         |                 |            |   
+|            | Correct scoring and path matrices (including boundary conditions)	   | Scoring and path matrices incorrect for boundary conditions	| Incorrect scoring and path matrice |   
+|             |         |                 |            |   
+|            | Correct `countMatches` and `longest_consecutive` functions | Correct `countMatches` xor `longest_consecutive` functions| Incorrect `countMatches` and `longest_consecutive` functions |   
+|             |         |                 |            |   
+| Bio elements | Appropriate test data  | Some appropriate test data  | Insufficient appropriate test data   |   
+|     (6 pts)         | Conclusions regarding biological soundness	    | Conclusions partially regarding biological soundness | Conclusions not regarding biological soundness	|
+|           |                                              |                                        |           |   |                                |   
+| Reflective (8 pts)   | Thorough and understandable write-up of results | Thorough xor understandable write-up of results | Neither thorough anor understandable write-up of results  |   
+|            |         |                 |            |   
+|            | Thorough and reflective write-up of team dynamics (peer review) | Thorough xor reflective write-up of team dynamics (peer review) | Neither thorough nor reflective peer reviews |   
+
+```{=latex}
+\normalsize
+```
+
+
