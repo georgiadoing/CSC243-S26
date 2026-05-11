@@ -281,7 +281,29 @@
     "href": "03-Assignments/csc243_proj1.html",
     "title": "Group Project 1",
     "section": "",
-    "text": "CSC/BIO 243: Group Project 1 (20 pts)\n\ndue Friday 5/22/26 by class time (11:45 am)\nHaving a BLAST\nPeer Review Form\nStarter Files\n\nBLOSUM",
+    "text": "CSC/BIO 243: Group Project 1 (20 pts)",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Group Project 1</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc243_proj1.html#groups",
+    "href": "03-Assignments/csc243_proj1.html#groups",
+    "title": "Group Project 1",
+    "section": "Groups",
+    "text": "Groups\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGroup 1\nGroup 2\nGroup 3\nGroup 4\nGroup 5\nGroup 6\nGroup 7\n\n\n\n\nFrom “CS”\nLaurus\nTyler\nKai\nNick\nMary Grace\nJared\nSeohyun\n\n\nFrom “Bio”\nFinn\nEmma\nAlexander\nMaryann\nWill\nAddie\nJackson\n\n\nFrom “Both”\nCody\nWilloughby\nLizzy\nEva\nSofia\nAnabelle\nJasmine",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Group Project 1</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc243_proj1.html#how-to-turn-this-in-from-the-end-of-the-pdf",
+    "href": "03-Assignments/csc243_proj1.html#how-to-turn-this-in-from-the-end-of-the-pdf",
+    "title": "Group Project 1",
+    "section": "How to turn this in (from the end of the pdf)",
+    "text": "How to turn this in (from the end of the pdf)\nPlease turn in all Python files, including nw_blast.py, and the write-up named nw_blast.pdf on gradescope. Don’t forget to put the honor code affirmation in the comments of both.\n\n\n\n\n\n\n\n\n\n\nExceeding expectations (1x)\nArriving at expectations (1.5x)\nNot meeting Expectations (0.5x)\n\n\n\n\nCS elements\nCorrect implementation of N-W algorithm\nCorrect logic of N-W algorithm but with semantic error\nIncorrect logic of N-W algorithm\n\n\n(6 pts)\n\n\n\n\n\n\nCorrect scoring and path matrices (including boundary conditions)\nScoring and path matrices incorrect for boundary conditions\nIncorrect scoring and path matrice\n\n\n\n\n\n\n\n\n\nCorrect countMatches and longest_consecutive functions\nCorrect countMatches xor longest_consecutive functions\nIncorrect countMatches and longest_consecutive functions\n\n\n\n\n\n\n\n\nBio elements\nAppropriate test data\nSome appropriate test data\nInsufficient appropriate test data\n\n\n(6 pts)\nConclusions regarding biological soundness\nConclusions partially regarding biological soundness\nConclusions not regarding biological soundness\n\n\n\n\n\n\n\n\nReflective (8 pts)\nThorough and understandable write-up of results\nThorough xor understandable write-up of results\nNeither thorough anor understandable write-up of results\n\n\n\n\n\n\n\n\n\nThorough and reflective write-up of team dynamics (peer review)\nThorough xor reflective write-up of team dynamics (peer review)\nNeither thorough nor reflective peer reviews",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Group Project 1</span>"
