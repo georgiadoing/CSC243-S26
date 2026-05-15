@@ -1,0 +1,554 @@
+---
+title: CSC/BIO 243 Bioinformatics - Week 04
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: ../preamble.tex
+    pptx:
+        incremental: true
+        reference-doc: ../teaching_template3.pptx
+    ipynb:
+        title:  "CSC/BIO 243 Bioinformatics - Week 03"
+jupyter: python3
+---
+
+
+
+# getCodon
+
+
+```{python}
+#############################################
+# Name (email)
+# partner, group: name
+# 4/14/26
+''' Week 2 Classwork Functions and Psudocode'''
+#############################################
+
+#given a DNA sequence and codon number, returns the codon at that index
+def getCodon(sequence, codonNumber):
+    for i in range(codonNumber+1):
+        codon = sequence[i*3:i*3+3]
+    print(codon)
+}
+
+#main function
+def main():
+    #tests for getCodon
+    getCodon("ATCGCTACA",2)
+    getCodon("ATCGCTACA",0)
+
+```
+
+
+# getCodon
+
+
+```{python}
+
+# Week 2 Assignment
+# Name and Name
+
+# Part 2:
+def getCodon(sequence, codonNumber):
+    i = 0
+    currentCodon = 0
+    while i <= len(sequence):
+        codon = sequence[i:i+3]
+        if currentCodon == codonNumber:
+            print(codon)
+            return
+        i += 3
+        currentCodon += 1
+
+def main():
+    getCodon("GATGATCGATCGATAA", 1)
+```
+
+# getCodon
+
+```{python}
+# April 13, 2026
+# Name (email) and Name
+# Practicing Functions and the Genetic Code
+
+
+# function that prints out codon corresponding to codonNumber in sequence
+def getCodon(sequence, codonNumber):
+    num = codonNumber * 3
+    codon = sequence[num] + sequence[num+1] + sequence[num+2]
+    print(codon)
+```
+
+
+# getCodon
+
+```{python}
+#############################################
+# Name and Name
+# 4/13/26
+# CSC243
+# Week 2 Pair Programming
+#############################################
+
+
+def getCodon(sequence, codonNumber):
+    startIndex = (codonNumber * 3)
+    endIndex = startIndex + 3
+    sliced = sequence[startIndex : endIndex]
+    print(sliced)
+```
+
+
+# getCodon
+
+
+```{python}
+# Name & Name
+# In-class peer programming assingment
+
+#Part 2
+def getCodon(DNAstring,codonNumber):
+    '''Function will print out the codon of the nucleotide sequence that corresponds to the number in codonNumber'''
+    print(DNAstring[codonNumber*3:codonNumber*3+3])
+
+getCodon("ATCGCTACA",2)
+
+```
+
+
+```{python}
+#############################################
+# Georgia Doing (doingg@union.edu)
+# partner, group:
+# 4/8/26
+''' HW2 programs, extracting codons'''
+#############################################
+
+def getCodon(sequence, codonNumber):
+    """ prints the codon given a sequence of nts and the codon number """
+    print(sequence[codonNumber*3:codonNumber*3+3])
+
+def getLastCodon(sequence):
+    """ prints the last codon given a sequence of nts """   
+    print(sequence[-3:])
+
+def main():
+    test_seq = "GCCTGTTGTGTGGCC"
+    getCodon(test_seq,0)
+    getLastCodon(test_seq)
+
+main()
+```
+
+
+
+# codon2aa
+
+
+
+```{python}
+def codon2aa(codon):
+    aminoacids = {'TTT': 'F', 'TTC':'F', 'TTA':'L', 'TTG':'L', 'CTT':'L', 'CTC':'L', 'CTA':'L', 'CTG':'L', 'ATT':'I', 'ATC':'I', 'ATA':'I', 'ATA':'I','ATG':'M','GTT':'V','GTC':'V','GTA':'V','GTG':'V','TCT':'S','TCC':'S','TCA':'S','TCG':'S','CCT':'P','CCC':'P','CCA':'P','CCG':'P','ACT':'T','ACC':'T','ACA':'T','ACG':'T','GCT':'A','GCC':'A','GCA':'A','GCG':'A','TAT':'Y','TAC':'Y','TAA':"",'TAG':"",'CAT':'H','CAC':'H','CAA':'Q','CAG':'Q','AAT':'N','AAC':'N','AAA':'K','AAG':'K','GAT':'D','GAC':'D','GAA':'E','GAG':'E','TGT':'C','TGC':'C','TGA':"",'TGG':'W','CGT':'R','CGC':'R','CGA':'R','CGG':'R','AGT':'S','AGC':'S','AGA':'R','AGG':'R','GGT':'G','GGC':'G','GGA':'G','GGG':'G'}
+    AA = aminoacids[codon]
+    return(AA)
+
+def seq2protein(sequence):
+
+    'Takes codons and turns to protein'
+    
+    codonlist = getCodon(sequence)
+
+    aminochain = ''
+
+    for codon in codonlist:
+
+        amino = codon2aa(codon)
+
+        aminochain = aminochain + amino
+
+    return(aminochain)
+```
+
+# codon2aa
+
+```{python}
+codon_dict = {
+    "TTT":"F","TTC":"F","TTA":"L","TTG":"L",
+    "TCT":"S","TCC":"S","TCA":"S","TCG":"S",
+    "TAT":"Y","TAC":"Y","TAA":" ","TAG":" ",
+    "TGT":"C","TGC":"C","TGA":" ","TGG":"W",
+
+    "CTT":"L","CTC":"L","CTA":"L","CTG":"L",
+    "CCT":"P","CCC":"P","CCA":"P","CCG":"P",
+    "CAT":"H","CAC":"H","CAA":"Q","CAG":"Q",
+    "CGT":"R","CGC":"R","CGA":"R","CGG":"R",
+
+    "ATT":"I","ATC":"I","ATA":"I","ATG":"M",
+    "ACT":"T","ACC":"T","ACA":"T","ACG":"T",
+    "AAT":"N","AAC":"N","AAA":"K","AAG":"K",
+    "AGT":"S","AGC":"S","AGA":"R","AGG":"R",
+
+    "GTT":"V","GTC":"V","GTA":"V","GTG":"V",
+    "GCT":"A","GCC":"A","GCA":"A","GCG":"A",
+    "GAT":"D","GAC":"D","GAA":"E","GAG":"E",
+    "GGT":"G","GGC":"G","GGA":"G","GGG":"G"
+}
+
+
+#Assume codon will be DNA
+def codon2aa(codon):
+    "takes a single codon(string) and converts to associated one letter amino acid"
+    if codon in codon_dict:
+        return(codon_dict[codon])
+
+
+
+''' Pseudocode Explanation:
+- Loops through every 3 values in the sequence
+- set a codon equal to each 3 letters in sequence
+- 3 letters will be operated on by the function which converts 3 letters
+to amino acid
+- Utilizes .join() method to print out each amino acid combination regardless of length
+'''
+def seq2protein(sequence):
+    proteins = []
+    "This function will return the protein translation of the given sequence"
+    for x in range(len(sequence)//3):
+        codon1 = (sequence[x*3:x*3+3])
+        proteins.append(codon2aa(codon1))
+    print(''.join(proteins))
+        
+def main(sequence):
+    seq2protein(sequence)
+```
+
+
+# codon2aa
+
+
+```{python}
+aa_codons_dict = {
+    'A': ['GCT', 'GCC', 'GCA', 'GCG'],
+    'R': ['CGT', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG'],
+    'D': ['GAT', 'GAC'],
+    'N': ['AAT', 'AAC'],
+    'C': ['TGT', 'TGC'],
+    'Q': ['CAA', 'CAG'],
+    'E': ['GAA', 'GAG'],
+    'G': ['GGT', 'GGC', 'GGA', 'GGG'],
+    'H': ['CAT', 'CAC'],
+    'I': ['ATT', 'ATC', 'ATA'],
+    'L': ['TTA', 'TTG', 'CTT', 'CTC', 'CTA', 'CTG'],
+    'K': ['AAA', 'AAG'],
+    'M': ['ATG'], # start codon
+    'F': ['TTT', 'TTC'],
+    'P': ['CCT', 'CCC', 'CCA', 'CCG'],
+    'S': ['TCT', 'TCC', 'TCA', 'TCG', 'AGT', 'AGC'],
+    'T': ['ACT', 'ACC', 'ACA', 'ACG'],
+    'W': ['TGG'],
+    'Y': ['TAT', 'TAC'],
+    'V': ['GTT', 'GTC', 'GTA', 'GTG'],
+    'stop': ['TAA', 'TAG', 'TGA']
+}
+
+codons_aa_dict = {codon: aa for aa, codons in aa_codons_dict.items() for codon in codons}
+
+def codon2aa(codon: str) -> str:
+    aa = codons_aa_dict[codon]
+    return aa
+
+def getCodon(sequence: str, codonNumber: int) -> str:
+    sequence_length = len(sequence)
+    if sequence_length % 3 != 0:
+        if sequence_length % 3 == 1:
+            sequence = sequence[:sequence_length-1]
+            
+        else:
+            sequence = sequence[:sequence_length-2]
+
+
+    needed_codon = sequence[(codonNumber*3):(codonNumber*3+3)]
+    return needed_codon
+
+"""
+INITIATE empty protein sequence
+FOR each codon in the sequence
+    IF it's a stop codon
+        stop running
+    
+    retrieve associated amino acid and append to 
+    the protein sequence
+    
+RETURN protein sequence
+"""
+
+def seq2protein(sequence: str) -> str:
+    n_codons = (len(sequence) // 3)
+    protein = ''
+    for i in range(n_codons):
+        curr_codon = getCodon(sequence, i)
+        curr_aa = codon2aa(curr_codon)
+        if (curr_aa == "stop"):
+            break
+        protein += curr_aa
+    return protein
+
+```
+
+
+
+# codon2aa
+
+
+```{python}
+# function that takes in a codon and returns the coresponding amino acid letter
+def codon2aa(codon):
+    if codon[:2] == "GT":
+        return "V" # valine
+    elif codon[:2] == "GC":
+        return "A" # alanine
+    elif codon in ("GAT", "GAC"):
+        return "D" # aspartaic acid
+    elif codon in ("GAG", "GAA"):
+        return "E" # glutamic acid
+    elif codon[:2] == "GG":
+        return "G" # glycine
+    elif codon in ("TTT", "TTC"):
+        return "F" # phenylalanine
+    elif codon in ("TTA", "TTG") or codon[:2] == "CT":
+        return "L" # leucine
+    elif codon[:2] == "TC" or codon in ("AGT", "AGC"):
+        return "S" # serine
+    elif codon in ("TAT", "TAC"):
+        return "Y" # tyrosine
+    elif codon in ("TAA", "TAG", "TGA"):
+        return "" # stop codons
+    elif codon in ("TGT", "TGC"):
+        return "C" # cysteine
+    elif codon == "TGG":
+        return "W" # tryptophan
+    elif codon[:2] == "CC":
+        return "P" # proline
+    elif codon in ("CAT", "CAC"):
+        return "H" # histidine
+    elif codon in ("CAA", "CAG"):
+        return "Q" # glutamine
+    elif codon[:2] == "CG" or codon in ("AGA", "AGG"):
+        return "R" # arginine
+    elif codon in ("ATT", "ATC", "ATA"):
+        return "I" # isolucine
+    elif codon == "ATG":
+        return "M" # methionine
+    elif codon[:2] == "AC":
+        return "T" # theronine
+    elif codon in ("AAT", "AAC"):
+        return "N" # asparagine
+    else:
+        return "K" # lysine
+    
+    
+
+
+
+# seq2protein pseudocode
+# def seq2protein(sequence):
+# splice seqeunce into codons (3 characters)
+# call codon2aa to get amino acid
+# return translation
+
+# function that translates a DNA sequence to a protein
+def seq2protein(sequence):
+    protein = ""
+    
+    # if sequence isn't evenly divisible by 3:
+    if len(sequence) % 3 != 0:
+        return "Invalid sequence length"
+        
+    num_codons = len(sequence)//3
+    
+    for i in range(num_codons):
+        codon = getCodon(sequence, i)   
+        aa = codon2aa(codon)
+        if aa == "":
+            return protein
+
+        protein += aa
+            
+    return protein
+        
+```
+
+
+# codon2aa
+
+
+```{python}
+#Function that takes in a 3 nucleotide codon and translates to/returns an amino acid (single letter)
+def codon2aa(codon):
+    toReturn = 0
+    if codon == "TTT" or codon == "TTC":
+        toReturn = "F"
+    elif codon == "ATG":
+        toReturn = "M"
+    elif codon == "TTA" or codon == "TTG" or codon[0:2]=="CT":
+        toReturn = "L"
+    elif codon[0:2] == "AT":
+        toReturn = "I"
+    elif codon[0:2] == "GT":
+        toReturn = "V"
+    elif codon[0:2] == "TC":
+        toReturn = "S"
+    elif codon[0:2] == "CC":
+        toReturn = "P"
+    elif codon[0:2] == "AC":
+        toReturn = "T"
+    elif codon[0:2] == "GC":
+        toReturn = "A"
+    elif codon == "TAT" or codon == "TAC":
+        toReturn = "Y"
+    elif codon == "CAT" or codon == "CAC":
+        toReturn = "H"
+    elif codon == "CAA" or codon == "CAG":
+        toReturn = "Q"
+    elif codon == "AAT" or codon == "AAC":
+        toReturn = "N"
+    elif codon == "AAA" or codon =="AAG":
+        toReturn = "K"
+    elif codon == "GAT" or codon == "GAC":
+        toReturn = "D"
+    elif codon == "GAA" or codon == "GAG":
+        toReturn = "E"
+    elif codon == "TGT" or codon == "TGC":
+        toReturn = "C"
+    elif codon == "TGG":
+        toReturn = "W"
+    elif codon[0:2] == "CG" or codon == "AGA" or codon == "AGG":
+        toReturn = "R"
+    elif codon == "AGT" or codon == "AGC":
+        toReturn = "S"
+    elif codon[0:2] == "GG":
+        toReturn = "G"
+    elif codon == "TAA" or codon == "TAG" or codon == "TGA":
+        toReturn = "STOP"
+    return toReturn
+
+#Psudocode for seq2protein
+#For every codon in the sequence, find the amino acid for accosiated with the codon.
+#Add amino acid to string that acts as the chain of amino acid (aka a protein)
+#return finished string
+
+#Takes in a nucleotide sequence and returns the chain of amino acids it codes for
+def seq2protein(sequence):
+    protein = ""
+    for i in range(int(len(sequence)/3)):
+        codon = sequence[i*3:i*3+3]
+        protein += codon2aa(codon)
+    return protein
+```
+
+
+# codon2aa
+
+
+```{python}
+#############################################
+# Georgia Doing (doingg@union.edu)
+# partner, group:
+# 4/8/26
+''' HW3 programs, codons to amino acids'''
+#############################################
+
+'''
+def codon2aa(codon): 
+
+This function will take a single codon (as a String) and convert it to its associated one-letter amino acid. Do not print this amino acid inside the function. Merely **return** it out of the function. Remember, the `return` statement sends the result of the function back to the line of the function call so that you can make use of it in another function. Assume codons will be DNA, not RNA. (I realize this doesn't make biological sense since amino acids are formed from RNA, but tools like BLAST show all output as DNA, and we'll want to use BLAST later in this project.) 
+
+def seq2protein(sequence): 
+
+The parameter `sequence` is a nucleotide sequence (a String). This function will return the protein translation of the given sequence. To do this, you should repeatedly call the `codon2aa` method from Part 1 on each codon of the sequence. Write your algorithm in pseudocode before writing the code, and include this algorithm as comments in your Python file.  Use the limited English vocabulary worksheet just like before. You may also call other functions in your pseudocode.
+'''
+
+def codon2aa(codon):
+    if codon == "GCA" or codon == "GCC" or codon == "GCG" or codon == "GCT":
+        return "A"
+    elif codon == "AGA" or codon == "AGG" or codon == "CGA" or\
+    codon == "CGC" or codon == "CGG" or codon == "CGT":
+        return "R"
+    elif codon == "AAC" or codon == "AAT":
+        return "N"
+    elif codon == "GAC" or codon == "GAT":
+        return "D"
+    elif codon == "TGC" or codon == "TGT":
+        return "C"
+    elif codon == "GAA" or codon == "GAG":
+        return "E"
+    elif codon == "CAA" or codon == "CAG":
+        return "Q"
+    elif codon == "GGA" or codon == "GGC" or codon == "GGG" or codon == "GGT":
+        return "G"
+    elif codon == "CAC" or codon == "CAT":
+        return "H"
+    elif codon == "ATA" or codon == "ATC" or codon == "ATT":
+        return "I"
+    elif codon == "TTA" or codon == "TTG" or codon == "CTA" or\
+    codon == "CTC" or codon == "CTG" or codon == "CTT":
+        return "L"
+    elif codon == "AAA" or codon == "AAG":
+        return "K"
+    elif codon == "ATG":
+        return "M"
+    elif codon == "TTC" or codon == "TTT":
+        return "F"
+    elif codon == "CCA" or codon == "CCC" or codon == "CCG" or codon == "CCT":
+        return "P"
+    elif codon == "AGC" or codon == "AGT" or codon == "TCA" or\
+    codon == "TCC" or codon == "TCG" or codon == "TCT":
+        return "S"
+    elif codon == "ACA" or codon == "ACC" or codon == "ACG" or codon == "ACT":
+        return "T"
+    elif codon == "TGG":
+        return "W"
+    elif codon == "TAC" or codon == "TAT":
+        return "Y"
+    elif codon == "GTA" or codon == "GTC" or codon == "GTG" or codon == "GTT":
+        return "V"
+    else:
+        return ""
+
+# converts seq to protein
+def seq2protein(sequence):
+    count=0
+    answer = ""
+    for nt in sequence:
+        if count == 0:
+            codon = nt
+            count = count + 1
+        elif count == 1:
+            codon = codon + nt
+            count = count + 1
+        elif count == 2:
+            codon = codon + nt
+            answer = answer + codon2aa(codon)
+            count = 0
+            codon = ""
+    return answer
+
+# returns codon given codon number
+def getCodon(sequence, codonNum):
+    return sequence[codonNum*3:codonNum*3+3]
+
+# converts seq to protein again
+def seq2protein2(sequence):
+    protein = ""
+    numCodons = len(sequence)//3
+    for counter in range(0,numCodons):
+        codon = getCodon(sequence,counter)
+        AA = codon2aa(codon)
+        protein = protein + AA
+    return protein
+```
