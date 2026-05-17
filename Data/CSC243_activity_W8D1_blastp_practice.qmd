@@ -1,0 +1,67 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 8 Day 1 (0.5 pts for engagement)
+date: May, 18, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+jupyter: python3
+---
+
+NAME(S):  
+
+
+# Amino Acid Alignment with the N-W Algiorithm: align “LSKRSE” with “SKKRE” with a gap penalty  -1.
+
+1.	Initialize upper-left block to score of 0
+2.	Initialize top row and leftmost column of both scores and path matrix
+3.	Fill out matrix left to right, top to bottom using the BLOSUM62 matrix.
+4.	Starting at bottom-right of path matrix, follow arrows to reach the upper-left.  Diagonal arrows are matches.  Up and Left arrows are an alignment of an amino acid to a gap. 
+
+
+# Scores Matrix:
+
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{tabular}{|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+\hline
+  & - & S & K & K & R & E \\ \hline
+- &   &   &   &   &   &   \\ \hline
+L &   &   &   &   &   &   \\ \hline
+S &   &   &   &   &   &   \\ \hline
+K &   &   &   &   &   &   \\ \hline
+R &   &   &   &   &   &   \\ \hline
+S &   &   &   &   &   &   \\ \hline
+E &   &   &   &   &   &    \\ \hline
+\end{tabular}
+\end{table}
+
+
+# Path Matrix:
+
+\begin{table}[H]
+\begin{tabular}{|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+\hline
+  & - & S & K & K & R & E \\ \hline
+- & goal  &   &   &   &   &   \\ \hline
+L &   &   &   &   &   &   \\ \hline
+S &   &   &   &   &   &   \\ \hline
+K &   &   &   &   &   &   \\ \hline
+R &   &   &   &   &   &   \\ \hline
+S &   &   &   &   &   &   \\ \hline
+E &   &   &   &   &   &   \\ \hline
+\end{tabular}
+\end{table}
+
+# Alignment:

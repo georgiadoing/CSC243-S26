@@ -1,0 +1,60 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 9 Day 3 (0.5 pts for engagement)
+date: May, 29, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+jupyter: python3
+---
+
+NAME(S):  
+
+
+# Fitch-Margoliash Exercise
+
+Consider four gene sequences, (A, C, D, E), having the following distance matrix:
+
+
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+\hline
+  & A  &  C  & D & E \\ \hline
+A & -  &  -  & - & - \\ \hline
+C &  39  &  -  & - & - \\ \hline
+D &   39 & 18    & - & - \\ \hline
+E & 41 &  20 & 10 & - \\ \hline
+\end{tabular}
+\end{table}
+
+
+1.	Use UPGMA to determine kinship between the four sequences.  What can you use as an outgroup?
+
+\vspace{8em}
+
+
+\vspace{2em}
+
+
+
+2.	Using the three most related sequences, figure out appropriate branch lengths using the Fitch-Margoliash algorithm and draw the resulting *unrooted* scaled tree.
+
+\vspace{8em}
+
+
+\vspace{2em}
+
+
+3.	Use the outgroup along with the Fitch-Margoliash algorithm to create a phylogram: a *rooted* scaled tree with appropriate branch lengths for the three most related sequences.

@@ -1,0 +1,57 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 8 Day 3 (0.5 pts for engagement)
+date: May, 22, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+jupyter: python3
+---
+
+NAME(S):  
+
+
+# Unweighted Pair Goup Method with Arithmetic Mean Exercise
+
+Given five gene sequences, (A, B, C, D, E), three of which are shown below, complete the partially-filled out distance matrix below.  Use “number of mismatches” as the criteria.  Then, use the UPGMA technique to determine relationships between the five sequences.  Draw the resulting phylogenetic tree. Show your work, use the front and back of this page for more space.
+
+# Sequences
+
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{tabular}{|p{1cm}|p{6.5cm}|}
+\hline
+A & $MVPPLIPFKTRTSLVTTFKI$ \\ \hline
+B & $MLPPSSPFYTGYKLVQTFKI$ \\ \hline
+C & $MLYYSSPFYKRTSVFQTSYI$ \\ \hline
+\end{tabular}
+\end{table}
+
+# Distance Matrix:
+
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+\hline
+  & A  & B  & C  & D & E \\ \hline
+A & -  & -  & -  & - & - \\ \hline
+B & 9  & -  & -  & - & - \\ \hline
+C &    & 11 & -  & - & - \\ \hline
+D &    & 15 &    & - & - \\ \hline
+E & 15 & 18 & 13 & 5 & - \\ \hline
+\end{tabular}
+\end{table}
+
+
+# Phylogenetic Tree:

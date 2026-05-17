@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://georgiadoing.github.io/CSC243-S26/index.html</loc>
-    <lastmod>2026-05-11T19:34:36.464Z</lastmod>
+    <lastmod>2026-05-17T23:00:01.595Z</lastmod>
   </url>
   <url>
     <loc>https://georgiadoing.github.io/CSC243-S26/02-Main/schedule.html</loc>
@@ -77,6 +77,10 @@
     <lastmod>2026-05-15T15:15:40.989Z</lastmod>
   </url>
   <url>
+    <loc>https://georgiadoing.github.io/CSC243-S26/04-Notes/week8.html</loc>
+    <lastmod>2026-05-17T22:57:54.051Z</lastmod>
+  </url>
+  <url>
     <loc>https://georgiadoing.github.io/CSC243-S26/about.html</loc>
     <lastmod>2026-03-02T23:49:19.296Z</lastmod>
   </url>
@@ -86,6 +90,6 @@
   </url>
   <url>
     <loc>https://georgiadoing.github.io/CSC243-S26/CSC243notes.pdf</loc>
-    <lastmod>2026-05-15T15:15:57.969Z</lastmod>
+    <lastmod>2026-05-17T23:00:50.549Z</lastmod>
   </url>
 </urlset>
