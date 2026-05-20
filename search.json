@@ -413,7 +413,7 @@
     "href": "04-Notes/week8.html",
     "title": "Week 8",
     "section": "",
-    "text": "Mon:\n\nInterpreting Sequence Alignment, new slides\nblastp practice (0.5 pts for engagement)\nBLOSUM62 wiki page\nreview article on BLOSUM62\nreview of other possible substitution matrices\nGene X Genomic Seq\nmRNA X cDNA Seq\nProt X AA Seq\n\nWed:\n\npresentation on PCR note taking activity (0.5 pts for engagement)\nMultiple Sequence Alignment, slides\n\nFri:\n\nMultiple Sequence Alignment, cont slides\nUPGMA practice (0.5 pts for engagement)\ngroups assigned for Project 2",
+    "text": "Mon:\n\nInterpreting Sequence Alignment, new slides\nblastp practice (0.5 pts for engagement)\nBLOSUM62 wiki page\nreview article on BLOSUM62\nreview of other possible substitution matrices\nGene X Genomic Seq\nmRNA X cDNA Seq\nProt X AA Seq\n\nWed:\n\npresentation on PCR note taking activity (0.5 pts for engagement)\nMultiple Sequence Alignment, slides\nMSA activity\ncovd_spike_proteins.fasta\nclustal omega: https://www.ebi.ac.uk/Tools/msa/clustalo/\nESPript: https://espript.ibcp.fr/ESPript/cgi-bin/ESPript.cgi\n\nFri:\n\nMultiple Sequence Alignment, cont slides\nUPGMA practice (0.5 pts for engagement)\ngroups assigned for Project 2",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Week 8</span>"

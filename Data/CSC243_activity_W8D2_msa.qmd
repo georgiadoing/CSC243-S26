@@ -1,0 +1,63 @@
+---
+title: CSC/BIO 243 Bioinformatics, Week 8 Day 2 (0.5 pts for engagement)
+date: May, 20, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+jupyter: python3
+---
+
+NAME(S):  
+
+
+# SARS Covid 2 Spike Proteins for MSA
+
+Clustal Omega Site (for MSA): <https://www.ebi.ac.uk/Tools/msa/clustalo/>
+
+ESPript 3.0 site (for pretty Printing): <https://espript.ibcp.fr/ESPript/cgi-bin/ESPript.cgi>
+
+
+1. Copy THE FIRST THREE of the sequences below (Leave out Omicron for now) together as a group (with a line space in between each), and paste into the Clustal sequences box. Go with the defaults, and click “Submit”. Once the results are displayed, click on the “Download Alignment File” button. When the new window appears, go to the Browser menu and select “Save page as” – it will download in the default format (clustal_num). Save this file on your Desktop. 
+
+2. Go into the ESPript site in a new tab. Under “Aligned Sequences”, click on “Choose File”, go the Desktop, and select the previously-saved clustal file. Scroll down to “Alignments output layout” and change “Color Scheme” from normal to B&W. Change Orientation from Portrait to Landscape. Change “Paper Size” from A4 to US Letter. Scroll down to “Alignments output files” and select “Postscript File”, and deselect everything else. Click on the Yellow “Submit” button up top. Button turns red when you mouse over it before the click. A pop-up appears, and on the right=hand side of the Results, mouse over and click on “4 page(s)[45Kb]. Download this esp.pdf file, and open it. You should now see your “prettied up” alignment of the first three spike proteins.
+
+3. In another tab/window in your browser, redo the alignment, this time with ALL FOUR SEQUENCES, including Omicron. Pretty up this second MSA with ESPript as well.
+
+4. Over the length of close to 1270 amino acids for the spike protein, how many differences (substitutions, deletions) are there between the original Wuhan strain and the first two variants? What about between the Wuhan strain and all three variants?
+
+    \vspace{1em}
+
+………………………………………………………………………………………………
+
+
+
+5. How many differences are there between the Omicron variant and the other three spike proteins?
+
+\vspace{1em}
+
+………………………………………………………………………………………………
+
+
+6. The RBD (Receptor Binding Domain) Region is the key part of the protein that binds onto the human cell receptor protein. It lies between amino acid residues 297 and 536. How many amino acid differences are there between the original Wuhan strain and the Delta variant? How many amino acid differences are there between the original Wuhan strain and the Omicron variant? If there is a distinct difference in these numbers, venture an explanation. 
+ 
+\vspace{1em}
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
