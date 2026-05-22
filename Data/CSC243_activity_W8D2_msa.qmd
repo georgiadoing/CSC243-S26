@@ -24,7 +24,7 @@ NAME(S):
 
 # SARS Covid 2 Spike Proteins for MSA
 
-Clustal Omega Site (for MSA): <https://www.ebi.ac.uk/Tools/msa/clustalo/>
+Clustal Omega Site (for MSA): <https://www.ebi.ac.uk/jdispatcher/msa/clustalo>
 
 ESPript 3.0 site (for pretty Printing): <https://espript.ibcp.fr/ESPript/cgi-bin/ESPript.cgi>
 

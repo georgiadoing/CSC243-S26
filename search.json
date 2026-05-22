@@ -14,7 +14,7 @@
     "href": "index.html#announcements",
     "title": "Course: CSC/BIO243: Bioinformatics",
     "section": "Announcements",
-    "text": "Announcements\nGroup Projects have begun!\n\nfirst group project\noutline due Friday 5/15/26 by class time (11:45 am)\nfinal version due Friday 5/22/26 by class time (11:45 am)\n\nSurvey about taking the final early\n\ncomplete this form\nfinal is scheduled for Wed 6/10 2:30 - 3:30 pm\nyou may also take it Friday 6/5 from 5-7 pm\n\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 3:00 pm - 4:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
+    "text": "Announcements\nGroup Projects due TONIGHT!\n\nfirst group project\nfinal version due Friday 5/22/26 by midnight\ninidivudally submit peer reviews to separate gradescope assignment\n\nSurvey about taking the final early\n\ncomplete this form\nfinal is scheduled for Wed 6/10 2:30 - 3:30 pm\nyou may also take it Friday 6/5 from 5-7 pm\n\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 3:00 pm - 4:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -325,7 +325,18 @@
     "href": "03-Assignments/csc243_proj2.html",
     "title": "Group Project 2",
     "section": "",
-    "text": "CSC/BIO 243: Group Project 2 (20 pts)\n\ndue Friday 6/5/26 by class time (11:45 am)\nPrimer Finder\nPeer Review Form\nStarter Files\n\nCodonList.py\nmsa1.txt\nmsa2.txt",
+    "text": "CSC/BIO 243: Group Project 2 (20 pts)",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Group Project 2</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc243_proj2.html#groups",
+    "href": "03-Assignments/csc243_proj2.html#groups",
+    "title": "Group Project 2",
+    "section": "Groups",
+    "text": "Groups\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGroup 1\nGroup 2\nGroup 3\nGroup 4\nGroup 5\nGroup 6\nGroup 7\n\n\n\n\nFrom “CS”\nLaurus\nTyler\nKai\nNick\nMary Grace\nJared\nSeohyun\n\n\nFrom “Bio”\nJackson\nFinn\nEmma\nAlexander\nMaryann\nWill\nAddie\n\n\nFrom “Both”\nAnabelle\nJasmine\nLizzy\nCody\nWilloughby\nEva\nSofia",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Group Project 2</span>"
@@ -413,7 +424,7 @@
     "href": "04-Notes/week8.html",
     "title": "Week 8",
     "section": "",
-    "text": "Mon:\n\nInterpreting Sequence Alignment, new slides\nblastp practice (0.5 pts for engagement)\nBLOSUM62 wiki page\nreview article on BLOSUM62\nreview of other possible substitution matrices\nGene X Genomic Seq\nmRNA X cDNA Seq\nProt X AA Seq\n\nWed:\n\npresentation on PCR note taking activity (0.5 pts for engagement)\nMultiple Sequence Alignment, slides\nMSA activity\ncovd_spike_proteins.txt\nclustal omega: https://www.ebi.ac.uk/jdispatcher/msa/clustalo\nESPript: https://espript.ibcp.fr/ESPript/cgi-bin/ESPript.cgi\n\nFri:\n\nMultiple Sequence Alignment, cont slides\nUPGMA practice (0.5 pts for engagement)\ngroups assigned for Project 2",
+    "text": "Mon:\n\nInterpreting Sequence Alignment, new slides\nblastp practice (0.5 pts for engagement)\nBLOSUM62 wiki page\nreview article on BLOSUM62\nreview of other possible substitution matrices\nGene X Genomic Seq\nmRNA X cDNA Seq\nProt X AA Seq\n\nWed:\n\npresentation on PCR note taking activity (0.5 pts for engagement)\nMSA activity\ncovid_spike_proteins.txt\nclustal omega: https://www.ebi.ac.uk/jdispatcher/msa/clustalo\nESPript: https://espript.ibcp.fr/ESPript/cgi-bin/ESPript.cgi\n\nFri:\n\nMultiple Sequence Alignment, cont slides\nUPGMA practice (0.5 pts for engagement)\ngroups assigned for Project 2",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Week 8</span>"
