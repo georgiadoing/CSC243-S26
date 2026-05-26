@@ -1,0 +1,42 @@
+---
+title: CSC/BIO 243 Bioinformatics Final Exam Template
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+`\rule{\linewidth}{.25mm}`{=tex}
+
+# Overall - choose 5 topics, 3 pts per topic, for each topic:
+
+# State/Describe Topic (1.5 pt, given 1 page for writing):
+* describe this topic in detail, be thorough and focussed
+* include at least **2** verifiable pieces of information (avoid quality statements, describe *how* things work, think aboout what are the most pertinant/important facts to choose to include)
+    + it may help to number these statements to make sure you include them
+* discuss this topic in the context of bioinformatics, for example connect it to any of the assignments you've done in this class or other applications of bioinformatics you've learned about
+
+
+# State a question that you had after learning about this topc (0.5 pt, given 1/4 page for writing):
+* this does not have to be the question you first included in your notes, but can be
+* the question must be answerable, it must have a *correct* answer
+
+
+
+# Answer the above question. Include reference(s)  (1 pt, given 3/4 page for writing).
+* references can be chapters from books, specific web pages, primary or secondary literature
+* references must be specific enough that I can find them within a minute of searching
