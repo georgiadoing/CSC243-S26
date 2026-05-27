@@ -182,7 +182,7 @@ Before you use your MSA as input for your program, you must do two things:
 
 1.	Go through the alignment "by eye" (like we did in class), and try and design *at least one* upstream/downstream degenerate primer *pair*. You should use Clustal Omega and ESPript for this process. The results will be helpful to make sure that the MSA is suitable input for your program. 
 
-2.	Once you have completed the manual run-through, you should take your ESPript results and your "by eye" primer set and run these by Prof. Horton, so he can vet them and make sure that everything is OK. You should be working on your program even before this vetting process is done; *i.e.* use the sample input file to test your program, *even before* trying your own MSA input. Once Prof. Horton has given you the go-ahead with your MSA, you should then use it as input for your program and see what primer sets it selects for use in your hypothetical PCR experiment. 
+2.	Once you have completed the manual run-through, you should take your ESPript results and your "by eye" primer set and run these by me, so I can vet them and make sure that everything is OK. You should be working on your program even before this vetting process is done; *i.e.* use the sample input file to test your program, *even before* trying your own MSA input. Once I have given you the go-ahead with your MSA, you should then use it as input for your program and see what primer sets it selects for use in your hypothetical PCR experiment. 
 
 
 
@@ -194,7 +194,7 @@ Finally, as in the previous project, you should analyze the results of your test
 2.	Are there any primers that your program found that would *not* be suitable for the PCR process? If so, *why* aren't they suitable? If all are suitable, what makes them so? 
 3.	Are there any suitable primers that the biologists in your group can find in your sample input "by eye" that your program did *not* find? Why are those that you found "by eye" still suitable? Again, use ESPript to help you find primers manually. 
 4.	If you did find suitable ones "by eye" in #3, above, what is it about your program that kept them from being found? Speculate on possible improvements to your program. 
-Answers to these questions are not the only things we expect to see in your final report. We also expect to see your MSAs, your ESPript results, your primers with degeneracy data, and discussion about your answers to the above questions. 
+Answers to these questions are not the only things I expect to see in your final report. I also expect to see your MSAs, your ESPript results, your primers with degeneracy data, and discussion about your answers to the above questions. 
 
 
 ## How to turn this in
@@ -218,7 +218,7 @@ Please turn in all Python files, including `primer_finder.py`, and the write-up 
 |           |                                              |                                        |           |   |                                |   
 | Reflective (8 pts)   | Thorough and understandable write-up of results | Thorough xor understandable write-up of results | Neither thorough anor understandable write-up of results  |   
 |            |         |                 |            |   
-|            | Thorough and reflective write-up of team dynamics (peer review) | Thorough xor reflective write-up of team dynamics (peer review) | Neither thorough nor reflective peer reviews |   
+|            | Thorough and reflective write-up of team dynamics (peer review - graded individually) | Thorough xor reflective write-up of team dynamics (peer review) | Neither thorough nor reflective peer reviews |   
 
 ```{=latex}
 \normalsize
