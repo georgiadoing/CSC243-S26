@@ -1,0 +1,175 @@
+---
+title: CSC/BIO 243 Bioinformatics Final Exam
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 0
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME:  
+
+`\rule{\linewidth}{.25mm}`{=tex}
+
+# Final Exam
+
+This exam contains 14 pages (including this cover page).
+
+# Expectations:
+
+
+* You will have 120 minutes to complete this exam.
+* Closed note except for 1 notecard of references, submitted with the exam.
+* No talking to each other after the exam starts.
+* Please try to write legibly and don’t try to squeeze text in if it doesn’t fit. If you’re running out of space, your answers may not be focussed enough.
+
+# For each topic:
+
+* Describe this topic in detail, be thorough and focussed.
+* Include at least **2** verifiable pieces of information (avoid quality statements, describe *how* things work. It may help to number these statements.
+* Discuss this topic in the context of bioinformatics, for example connect it to any of the assignments you've done in this class or other applications of bioinformatics you've learned about.
+* State a question you had. The question must be answerable, it must have a *correct* answer.
+* Answer your question and include reference(s) you used to find the answer. References must be specific enough that I can find them within a minute of searching.
+
+# Please sign and date the following honor code statement:
+
+As a student at Union College, I am part of a community that values intellectual effort, curiosity and discovery. I understand that in order to truly claim my educational and academic achievements, I am obligated to act with academic integrity. Therefore, I affirm that I will carry out my academic endeavors with full academic honesty, and I rely on my fellow students to do the same.
+
+
+\vspace{2em}
+
+**Signature:**				
+
+\vspace{2em}
+
+
+**Date:**
+
+
+{{< pagebreak >}}
+
+NAME:  
+
+`\rule{\linewidth}{.25mm}`{=tex}
+
+
+{{< pagebreak >}}
+
+NAME:  
+
+`\rule{\linewidth}{.25mm}`{=tex}
+
+# State Topic 1:
+
+\vspace{8em}
+
+# Describe Topic 1 (3 pts):
+
+
+{{< pagebreak >}}
+
+
+# Describe Topic 1 continued:
+
+{{< pagebreak >}}
+
+
+
+# State a question you had after learning about this topic (1 pt):
+
+
+\vspace{8em}
+
+# Answer the above question. Include reference(s).  (1 pt).
+
+
+
+{{< pagebreak >}}
+
+
+# Answer continued:
+
+
+
+{{< pagebreak >}}
+
+
+NAME:  
+
+`\rule{\linewidth}{.25mm}`{=tex}
+
+# State Topic 2:
+
+\vspace{8em}
+
+# Describe Topic 2 (3 pts):
+
+
+{{< pagebreak >}}
+
+
+# Describe Topic 2 continued:
+
+{{< pagebreak >}}
+
+
+
+# State a question you had after learning about this topic (1 pt):
+
+
+\vspace{8em}
+
+# Answer the above question. Include reference(s).  (1 pt).
+
+{{< pagebreak >}}
+
+
+# Answer continued:
+
+{{< pagebreak >}}
+
+
+NAME:  
+
+`\rule{\linewidth}{.25mm}`{=tex}
+
+# State Topic 3:
+
+\vspace{8em}
+
+# Describe Topic 3 (3 pts):
+
+
+{{< pagebreak >}}
+
+
+# Describe Topic 3 continued:
+
+{{< pagebreak >}}
+
+
+
+# State a question you had after learning about this topic (1 pt):
+
+
+\vspace{8em}
+
+# Answer the above question. Include reference(s).  (1 pt).
+
+{{< pagebreak >}}
+
+
+# Answer continued:
+
+{{< pagebreak >}}
